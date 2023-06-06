@@ -1,9 +1,11 @@
 import CreationForm from '../view/creation-form';
 import EditForm from '../view/edit-form';
 import Sorting from '../view/sorting';
-import EventItem from '../view/event-item';
-import EventList from '../view/event-list';
+import WaypointView from '../view/event-item';
+import WaypointList from '../view/event-list';
 import {render} from '../render';
+import {isEsc} from '../util';
+import NoWaypointMessage from '../view/no-points';
 
 export default class BoardPresenter {
   #waypointListComponent = null;
