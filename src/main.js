@@ -1,7 +1,7 @@
 import Filters from './view/filters.js';
 import {render} from './render.js';
-import BoardPresenter from './presenter/presenter';
-import ModelWaypoint from './model/model';
+import BoardPresenter from './presenter/board-presenter';
+import ModelWaypoint from './model/model-waypoint';
 import {mockInit} from './mock/point';
 
 const siteHeaderElement = document.querySelector('.trip-controls__filters');
