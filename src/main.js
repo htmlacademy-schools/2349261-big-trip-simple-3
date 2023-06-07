@@ -29,6 +29,7 @@ const boardPresenter = new BoardPresenter({
   onNewWaypointDestroy: handleNewTaskFormClose
 });
 
+
 const filterPresenter = new FilterPresenter({
   filterContainer: siteHeaderElement,
   modelFilter,
