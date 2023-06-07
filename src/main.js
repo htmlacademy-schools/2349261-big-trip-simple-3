@@ -1,4 +1,4 @@
-import BoardPresenter from './presenter/board-presenter';
+import BoardPresenter from './presenter/board-presenter'; //asd
 import ModelWaypoint from './model/model-waypoint';
 import {mockInit, waypoints} from './mock/point';
 import ModelOffers from './model/model-offers';
