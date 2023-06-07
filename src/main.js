@@ -1,4 +1,4 @@
-import BoardPresenter from './presenter/board-presenter'; //asd
+import BoardPresenter from './presenter/board-presenter';
 import ModelWaypoint from './model/model-waypoint';
 import {mockInit, waypoints} from './mock/point';
 import ModelOffers from './model/model-offers';
@@ -28,7 +28,6 @@ const boardPresenter = new BoardPresenter({
   modelFilter,
   onNewWaypointDestroy: handleNewTaskFormClose
 });
-
 
 const filterPresenter = new FilterPresenter({
   filterContainer: siteHeaderElement,
